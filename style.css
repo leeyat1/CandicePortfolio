@@ -260,3 +260,13 @@ footer {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.top-page{
+    background-image: url('BashImages/Jason1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
