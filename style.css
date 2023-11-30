@@ -69,7 +69,7 @@ a:hover {
 
 .logo1 {
     font-size: 2rem;
-    color: white;
+    color: White;
     
 }
 
@@ -263,6 +263,16 @@ footer {
 
 .top-page{
     background-image: url('BashImages/Jason1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-page2{
+    background-image: url('BashImages/JD1.JPG');
     background-size: cover;
     background-position: center;
     height: 100vh;
