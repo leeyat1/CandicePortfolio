@@ -248,11 +248,24 @@ a:hover {
 }
 
 
-footer {
+.footer{
     color: white;
     text-align: center;
     bottom: 50px;
     background-image: url('BashImages/ING1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer3 {
+    color: white;
+    text-align: center;
+    bottom: 50px;
+    background-image: url('GradImages/Spotlight.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -273,6 +286,16 @@ footer {
 
 .top-page2{
     background-image: url('BashImages/7.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-page3{
+    background-image: url('GradImages/walk.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
