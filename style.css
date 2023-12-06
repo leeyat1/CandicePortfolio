@@ -214,14 +214,14 @@ a:hover {
 }
 
 .row-1{
-  
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 40px;
-  margin-top: 30px;
-  margin-left: auto; /* Move the grid to the center horizontally */
-  margin-right: auto; /* Move the grid to the center horizontally */
-  max-width: 1200px; 
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 30px;
+    margin-left: auto; /* Move the grid to the center horizontally */
+    margin-right: auto; /* Move the grid to the center horizontally */
+    max-width: 1200px; 
     
 }
 
@@ -252,7 +252,7 @@ footer {
     color: white;
     text-align: center;
     bottom: 50px;
-    background-image: url('BashImages/ing2.png');
+    background-image: url('BashImages/ING1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -279,4 +279,28 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.previewImage{
+    width: 350px;
+    height: 250px;
+    border-radius: 50px;
+    display: blcok;
+    overflow: hidden;
+}
+
+.photo-container{
+    width: 350px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+
+    transition: transform 0.5s;
 }
