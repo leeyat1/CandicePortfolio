@@ -304,6 +304,14 @@ a:hover {
     justify-content: space-between;
 }
 
+.top-page4{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 .previewImage{
     width: 350px;
     height: 250px;
