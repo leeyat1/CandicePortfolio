@@ -18,11 +18,11 @@
 nav,
 .nav-links {
     display: flex;
+    list-style: none;
+    font-size: 1.5rem;
 }
 
-.home-text{
-    color: white;
-}
+
 
 
 nav{
@@ -61,10 +61,22 @@ a:hover {
     text-decoration-color: rgb(black);
 }
 
+a:link{
+    text-decoration: None;
+}
+
 .logo {
     font-size: 2rem;
-    color: black;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 
+}
+
+.home-text{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .logo1 {
@@ -167,7 +179,7 @@ a:hover {
     padding-bottom: 50px;
     padding: 20px 16px;
     text-decoration: none;
-    position: fixed;
+    position: relative;
     font-size: 48px;
 
 }
